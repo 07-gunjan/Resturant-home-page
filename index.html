@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieHub - Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">FoodieHub</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Delicious Food, Delivered Fast</h1>
+        <p>Experience taste like never before</p>
+        <button class="btn">Order Now</button>
+    </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+    <h2>Our Menu</h2>
+
+    <div class="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="veg">Veg</button>
+        <button data-filter="nonveg">Non-Veg</button>
+        <button data-filter="drinks">Drinks</button>
+    </div>
+
+    <div class="menu-items">
+        <div class="item" data-category="veg">
+            <h3>Paneer Butter Masala</h3>
+            <p>₹250</p>
+        </div>
+
+        <div class="item" data-category="nonveg">
+            <h3>Chicken Biryani</h3>
+            <p>₹300</p>
+        </div>
+
+        <div class="item" data-category="drinks">
+            <h3>Cold Coffee</h3>
+            <p>₹120</p>
+        </div>
+
+        <div class="item" data-category="veg">
+            <h3>Veg Burger</h3>
+            <p>₹150</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        At FoodieHub, we serve fresh and delicious meals made with love.
+        Our mission is to deliver quality food quickly.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: gunjankr1412@mail.com</p>
+    <p>Phone: +91 9262556609</p>
+    <p>Location: India</p>
+</footer>
+
+<!-- jQuery FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Your JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
