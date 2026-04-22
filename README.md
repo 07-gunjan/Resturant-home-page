@@ -35,5 +35,5 @@ The project includes an interactive menu filtering system using jQuery, allowing
 ---
 
 ## 📞 Contact
-- Email: foodiehub@email.com
-- Phone: +91 9876543210
+- Email: gunjankr1412@email.com
+- Phone: +91 9262556609
